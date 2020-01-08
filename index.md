@@ -1,4 +1,9 @@
-## Welcome to GitHub Pages
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+
+## Welcome to Bushfire Support
+
+We exist to help you during this bushfire season. Here, you'll find publicly available resources.
 
 You can use the [editor on GitHub](https://github.com/aelsabagh/Bushfire-Support/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
