@@ -2,7 +2,14 @@
 <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
 
 ## Welcome to Bushfire Support
-
+<div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiYnVzaGZpcmVoZWxwIiwiYSI6ImNrNTMzdG1mbjA0bW0za250MGZnbWo4N3MifQ.6-_nowsM0ku7NX1rNr0O9Q';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11'
+});
+</script>
 We exist to help you during this bushfire season. Here, you'll find publicly available resources.
 
 You can use the [editor on GitHub](https://github.com/aelsabagh/Bushfire-Support/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
